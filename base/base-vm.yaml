@@ -4,7 +4,7 @@ metadata:
   labels:
     app: base-vm 
   name: base-vm
-  namespace: beehive-virtual-machines
+  namespace: vms
 spec:    
     running: false
     template:
@@ -51,7 +51,7 @@ spec:
         - cloudInitNoCloud:
             userData: |-
               #cloud-config
-              user: cloud-user
-              password: 'redhat1234' 
+              user: dem
+              password: 'dem' 
               chpasswd: { expire: False }
           name: cloudinitdisk
