@@ -4,8 +4,7 @@ kind: Kustomization
 resources:
   - ../../base
 
-#namePrefix: dev-
-name: rhel9-dev
+namePrefix: dev-
 
 configurations:
   - config.yaml
