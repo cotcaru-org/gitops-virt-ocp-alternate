@@ -18,3 +18,5 @@ Dev and Prod subdirectories: Each contains files to be used to customize environ
     - *config.yaml* is used to change the names of resources based on the virtual machine names.
     - **-vm-patch.yaml* files contain some simple patches to modify the specs of the VMs. It also sets running=true so the machine start up after creation.
 
+Source:
+https://developers.redhat.com/learning/learn:manage-openshift-virtual-machines-gitops/resource/resources:create-argo-cd-application-and-virtual-machines?source=sso
